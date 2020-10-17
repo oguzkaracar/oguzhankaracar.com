@@ -50,7 +50,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Benimle çalışmak ister misiniz?',
   btn: 'Bana Ulaşın',
-  email: 'oguzkacar@gmail.com',
+  email: 'mailto:oguzkacar@gmail.com',
 };
 
 // FOOTER DATA
