@@ -1,7 +1,7 @@
 name: Gatsby Publish
 
 on:
-  pull-request:
+  push:
     branches:
       - dev
 
@@ -15,4 +15,3 @@ jobs:
           access-token: ${{ secrets.oguzhankaracarcom }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
-          skip-publish: true
