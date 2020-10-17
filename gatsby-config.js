@@ -32,5 +32,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/oguzhankaracar.com",
+  pathPrefix: "/",
 };
