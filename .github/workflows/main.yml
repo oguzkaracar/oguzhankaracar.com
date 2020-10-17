@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.oguzhankaracar.com }}
+          access-token: ${{ secrets.oguzhankaracarcom }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
           skip-publish: true
