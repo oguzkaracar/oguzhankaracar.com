@@ -1,5 +1,9 @@
 ## oguzhankaracar.com
 
-Kişisel web sayfam.
+[oguzhankaracar.com](https://oguzhankaracar.com)
 
-Gatsby kullanarak oluşturuldu...
+Kişisel web sayfam, 
+
+Gatbsy theme kullanılarak oluşturuldu. 
+
+
