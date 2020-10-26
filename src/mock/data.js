@@ -28,7 +28,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project-1.jpg',
+    title: 'Twitter Clone with Next.js',
+    info: 'Twitter Clone App',
+    info2: '',
+    url: 'https://nextjs-twitter-oz.vercel.app/',
+    repo: 'https://github.com/oguzkaracar/nextjs-twitter-clone', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project-2.jpg',
     title: 'Nodejs Library App',
     info: 'Nodejs ile kütüphane ve yazar sistemi',
     info2: '',
@@ -37,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project-1.jpg',
     title: 'Nodejs Markdown Blog',
     info: 'Nodejs ile kişisel blog sayfası',
     info2: 'Markdown kullanarak kişisel blog sayfası yaptım.',
@@ -73,13 +82,19 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'medium',
-      url: 'https://medium.com/@oguzhankaracar',
+      name: 'twitter',
+      url: 'https://twitter.com/oguzhankaracar',
     },
     {
       id: nanoid(),
       name: 'instagram',
       url: 'https://www.instagram.com/oguzhnkrcr/',
     },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://medium.com/@oguzhankaracar',
+    },
+    
   ],
 };
