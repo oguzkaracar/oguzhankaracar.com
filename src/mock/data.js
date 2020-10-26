@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project-1.jpg',
+    img: 'project.jpg',
     title: 'Twitter Clone with Next.js',
     info: 'Twitter Clone App',
     info2: '',
