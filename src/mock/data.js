@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Oğuzhan Karaçar', 
-  lang: 'tr', 
-  description: 'Web siteme hoşgeldiniz.', 
+  title: 'Oğuzhan Karaçar',
+  lang: 'tr',
+  description: 'Web siteme hoşgeldiniz.',
 };
 
 // HERO DATA
@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-2-dark.jpg',
-  paragraphOne: "Merhabalar ben Oğuzhan Karaçar. 25 yaşındayım. Ankara'da yaşıyorum. 1 yıldır frontend development ile ilgileniyorum. Uzun yıllar bireysel olarak ve kendi işlerimde kullanmak üzere web teknolojileri ile ilgilendikten sonra tam zamanlı çalışmaya, ve kariyerime bu alanda devam etmeye karar verdim.",
-  paragraphTwo: 'Genellikle sektörü takip etmeye ve güncel teknolojileri öğrenmeye ve kullanmaya çalışıyorum. Özellikle Javascript teknolojileri ile ilgileniyorum. Bu süreçte NodeJS, Express, React, Redux gibi teknolojileri öğrendim.',
-  paragraphThree: 'Beni daha yakından tanımak için aşağıdaki sosyal medya hesaplarıma göz atabilirsiniz.',
-  resume: 'https://drive.google.com/file/d/1FzKD6JlwDNaOiHNQXIRh3nF_qhIwVHW2/view?usp=sharing', // if no resume, the button will not show up
+  paragraphOne:
+    "Merhabalar ben Oğuzhan Karaçar. 25 yaşındayım. Ankara'da yaşıyorum. 1 yıldır frontend development ile ilgileniyorum. Uzun yıllar bir hobi olarak, bireysel işlerimde kullanmak üzere web teknolojileri ile ilgilendikten sonra tam zamanlı çalışmaya, ve kariyerime bu alanda devam etmeye karar verdim.",
+  paragraphTwo:
+    'Front end dünyasındaki gelişmeleri takip etmeye ve güncel teknolojileri öğrenmeye ve kullanmaya çalışıyorum. Genel olarak Javascript teknolojileri ile ilgileniyorum. Bu süreçte NodeJS, Express, React, Redux, Typescript gibi teknolojileri öğrendim ve kullanıyorum.',
+  paragraphThree:
+    'Beni daha yakından tanımak ve bana ulaşmak için sosyal medya hesaplarıma göz atabilirsiniz.',
+  resume: 'https://drive.google.com/file/d/1G04fgYCtXI6Df4L_f8n_c3VV2WL5MhI-/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -52,7 +55,7 @@ export const projectsData = [
     info2: 'Markdown kullanarak kişisel blog sayfası yaptım.',
     url: 'https://oguzkaracar.herokuapp.com/',
     repo: 'https://github.com/oguzkaracar/oguzkaracar.com', // if no repo, the button will not show up
-  }
+  },
 ];
 
 // CONTACT DATA
@@ -95,6 +98,5 @@ export const footerData = {
       name: 'medium',
       url: 'https://medium.com/@oguzhankaracar',
     },
-    
   ],
 };

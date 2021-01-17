@@ -27,7 +27,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projelerim" />
-          {projects.map((project) => {
+          {projects.map(project => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
@@ -38,22 +38,18 @@ const Projects = () => {
                     bottom={isMobile}
                     duration={1000}
                     delay={500}
-                    distance="30px"
-                  >
+                    distance="30px">
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info}
-                        </p>
+                        <p>{info}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
+                        href={url || '#!'}>
                         Demo
                       </a>
 
@@ -62,8 +58,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
-                        >
+                          href={repo}>
                           Kaynak Kodları
                         </a>
                       )}
@@ -76,15 +71,13 @@ const Projects = () => {
                     bottom={isMobile}
                     duration={1000}
                     delay={1000}
-                    distance="30px"
-                  >
+                    distance="30px">
                     <div className="project-wrapper__image">
                       <a
                         href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
+                        rel="noopener noreferrer">
                         <Tilt
                           options={{
                             reverse: false,
@@ -96,8 +89,7 @@ const Projects = () => {
                             axis: null,
                             reset: true,
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
+                          }}>
                           <div data-tilt className="thumbnail rounded">
                             <ProjectImg alt={title} filename={img} />
                           </div>

@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
-
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
@@ -18,16 +17,10 @@ const Footer = () => {
         </span>
         <div className="social-links">
           {networks &&
-            networks.map((network) => {
+            networks.map(network => {
               const { id, name, url } = network;
               return (
-                <a
-                  key={id}
-                  href={url}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label={name}
-                >
+                <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
                   <i className={`fa fa-${name} fa-inverse`} />
                 </a>
               );
@@ -35,7 +28,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          Copyright © {new Date().getFullYear()} | All rights reserved |  
+          Copyright © {new Date().getFullYear()} | All rights reserved |
           <a href="https://github.com/oguzkaracar" target="_blank" rel="noopener noreferrer">
             Oğuzhan Karaçar
           </a>
