@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Merhaba, ben',
   name: 'Oğuzhan',
-  subtitle: 'Junior Frontend Developer',
+  subtitle: 'Frontend Developer',
   cta: 'Hakkımda',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile-2-dark.jpg',
   paragraphOne:
-    "Merhabalar ben Oğuzhan Karaçar. 25 yaşındayım. Ankara'da yaşıyorum. 1 yıldır frontend development ile ilgileniyorum. Uzun yıllar bir hobi olarak, bireysel işlerimde kullanmak üzere web teknolojileri ile ilgilendikten sonra tam zamanlı çalışmaya, ve kariyerime bu alanda devam etmeye karar verdim.",
+    "Merhabalar ben Oğuzhan Karaçar. 25 yaşındayım. Ankara'da yaşıyorum. 1 yıldır frontend development ile ilgileniyorum. Önceleri bir hobi olarak, bireysel işlerimde kullanmak üzere web teknolojileri ile ilgilendikten sonra, tam zamanlı olarak çalışmaya, ve kariyerime bu alanda devam etmeye karar verdim.",
   paragraphTwo:
-    'Front end dünyasındaki gelişmeleri takip etmeye ve güncel teknolojileri öğrenmeye ve kullanmaya çalışıyorum. Genel olarak Javascript teknolojileri ile ilgileniyorum. Bu süreçte NodeJS, Express, React, Redux, Typescript gibi teknolojileri öğrendim ve kullanıyorum.',
+    'Front end dünyasındaki gelişmeleri takip etmeye ve güncel teknolojileri öğrenmeye ve kullanmaya çalışıyorum. Genel olarak Javascript teknolojileri ile ilgileniyorum. NodeJS, Express, React, Redux, Typescript gibi teknolojileri öğrenmeye devam ediyor, aktif olarak kullanıyorum.',
   paragraphThree:
     'Beni daha yakından tanımak ve bana ulaşmak için sosyal medya hesaplarıma göz atabilirsiniz.',
   resume: 'https://drive.google.com/file/d/1G04fgYCtXI6Df4L_f8n_c3VV2WL5MhI-/view?usp=sharing', // if no resume, the button will not show up
